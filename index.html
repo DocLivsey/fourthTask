@@ -1,9 +1,5 @@
 <link rel="stylesheet" href="style.css"></link>
-<style>
-<?php include 'style.css'; ?>
-</style>
 <div class="main-content">
-    <div class="under-form">
       <div class="form">
         <form action="" method="POST" class="user-form" id="user-form">
           <h2 class="header-user-form">Create an account</h2>
@@ -18,11 +14,6 @@
           <div class="user-bday-field users-fields">
             <label>select year of your birth*</label>
             <select name="user_birth" id="user-birth">
-                <?php
-                    for ($i = 1923; $i <= 2023; $i++) {
-                        printf('<option value="%d">%d year</option>', $i, $i);
-                    }
-                ?>
             </select>
           </div>
           <div class="input-gender users-fields">
@@ -59,7 +50,6 @@
           </div>
         </form>
       </div>
-    </div>
     <div class="wave"></div>
     <div class="wave"></div>
     <div class="wave"></div>

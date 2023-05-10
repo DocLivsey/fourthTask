@@ -12,26 +12,14 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.under-form{
-    position: relative;
-    /*background: rgba(195, 229, 226, 0.6);*/
-    padding: 10%;
-    margin-top: 10%;
-    width: 30%;
-    height: 80px;
-    border: groove;
-    background: linear-gradient(315deg, rgba(101,0,94,0.4) 3%, rgba(60,132,206,0.4) 38%, rgba(48,238,226,0.4) 68%, rgba(255,25,25,0.4) 98%);
-}
 .form{
     align-items: baseline;
     justify-content: center;
     position: absolute;
     overflow: auto;
-    height: 160%;
-    width: 70%;
-    top: -40%;
-    left: 10%;
-    padding: 5%;
+    height: 90%;
+    width: 35%;
+    padding: 2%;
     background: rgb(217, 232, 229, 0.85);
     border: groove;
 }
